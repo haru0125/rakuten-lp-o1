@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e60023; /* 楽天カラー */
+}
+
+.hero {
+    background: linear-gradient(to bottom right, #e60023, #ff5f5f);
+    color: #fff;
+    text-align: center;
+    padding: 120px 0;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #e60023;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ffe5e5;
+}
+
+.btn-cta {
+    background: #fff;
+    color: #e60023;
+}
+
+.btn-secondary {
+    background: #e60023;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #c5001d;
+}
+
+.btn-highlight {
+    background: #fcca03;
+    color: #333;
+}
+
+.btn-highlight:hover {
+    background: #fcd737;
+}
+
+.scroll-indicator {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.overview {
+    background: #fff;
+}
+
+.overview h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.overview-list li {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.comparison {
+    background: #fff;
+}
+
+.comparison h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    background: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.coverage {
+    background: #fff;
+    text-align: center;
+}
+
+.coverage p {
+    margin-bottom: 20px;
+}
+
+.campaign, .flow, .faq, .reviews, .conclusion {
+    background: #fff;
+}
+
+.campaign h2, .flow h2, .faq h2, .reviews h2, .conclusion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campaign-list li {
+    margin: 10px 0;
+}
+
+.flow-steps li {
+    margin-bottom: 15px;
+}
+
+.faq .faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    color: #555;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-card {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.review-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.conclusion p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .review-list {
+        flex-direction: column;
+    }
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+}
